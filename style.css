@@ -1,0 +1,134 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f1e9;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  color: #0a3a21;
+}
+
+.banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.banner-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.banner-btn {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #0a3a21;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.banner-btn:hover {
+  background-color: #116b3a;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.subsection {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produk-item {
+  margin-top: 20px;
+}
+
+.produk-item img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.btn {
+  color: #0a3a21;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(10, 58, 33, 0.7); /* transparan hijau tua */
+  padding: 20px;
+  border-radius: 12px;
+  color: #fff;
+  max-width: 90%;
+}
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-buttons a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-email {
+  background-color: #0a3a21;
+}
+
+.btn-instagram {
+  background-color: #d62976;
+}
+
+.contact-buttons a:hover {
+  opacity: 0.85;
+}
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
