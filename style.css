@@ -132,3 +132,13 @@ section {
   height: auto;
   display: block;
 }
+.framed-image {
+  display: block;               /* agar bisa diposisikan */
+  margin: 2rem auto;            /* posisi di tengah */
+  border: 4px solid #0a3a21;    /* warna bingkai */
+  border-radius: 10px;          /* sudut agak membulat */
+  padding: 5px;                 /* ruang antara gambar dan border */
+  background-color: #ffffff;    /* warna latar belakang bingkai */
+  max-width: 90%;               /* agar responsif */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* efek bayangan bingkai */
+}
